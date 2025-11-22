@@ -93,7 +93,7 @@ const githubService = {
         query += ` repos:>=${minRepos}`;
       }
 
-      const response = await axios.get(`${GITHUB_API_BASE_URL}/search/users`, {
+      const response = await axios.get("https://api.github.com/search/users?q", {
         params: { 
           q: query,
           page: page,
