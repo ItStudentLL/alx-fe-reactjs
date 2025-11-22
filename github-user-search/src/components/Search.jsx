@@ -25,14 +25,22 @@ const Search = () => {
     setPage(1);
 
     try {
-      const data = await githubService.advancedSearch({
-        username,
-        location,
-        minRepos: minRepos ? parseInt(minRepos) : null,
-        page: 1
-      });
-      setUsers(data.items);
-      setHasMore(data.total_count > data.items.length);
+      // If only username is provided and no filters, use fetchUserData for direct lookup
+      if (username && !location && !minRepos) {
+        const userData = await githubService.fetchUserData(username);
+        setUsers([userData]);
+        setHasMore(false);
+      } else {
+        // Use advanced search for filtered queries
+        const data = await githubService.advancedSearch({
+          username,
+          location,
+          minRepos: minRepos ? parseInt(minRepos) : null,
+          page: 1
+        });
+        setUsers(data.items);
+        setHasMore(data.total_count > data.items.length);
+      }
       setLoading(false);
     } catch (err) {
       setError(true);
