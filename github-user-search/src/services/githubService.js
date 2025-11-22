@@ -47,6 +47,27 @@ const githubService = {
       console.error('Error fetching user details:', error);
       throw error;
     }
+  },
+
+  /**
+   * Fetch user data by username
+   * @param {string} username - The GitHub username to fetch
+   * @returns {Promise} - Promise resolving to user data
+   */
+  fetchUserData: async (username) => {
+    try {
+      const response = await axios.get(`${GITHUB_API_BASE_URL}/users/${username}`, {
+        headers: {
+          Authorization: import.meta.env.VITE_GITHUB_API_KEY 
+            ? `token ${import.meta.env.VITE_GITHUB_API_KEY}` 
+            : undefined
+        }
+      });
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching user data:', error);
+      throw error;
+    }
   }
 };
 
