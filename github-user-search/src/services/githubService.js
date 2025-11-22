@@ -23,7 +23,6 @@ const githubService = {
       });
       return response.data;
     } catch (error) {
-      console.error('Error fetching GitHub users:', error);
       throw error;
     }
   },
@@ -44,7 +43,6 @@ const githubService = {
       });
       return response.data;
     } catch (error) {
-      console.error('Error fetching user details:', error);
       throw error;
     }
   },
@@ -65,7 +63,6 @@ const githubService = {
       });
       return response.data;
     } catch (error) {
-      console.error('Error fetching user data:', error);
       throw error;
     }
   },
@@ -110,7 +107,6 @@ const githubService = {
       });
       return response.data;
     } catch (error) {
-      console.error('Error performing advanced search:', error);
       throw error;
     }
   }
