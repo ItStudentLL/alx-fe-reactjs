@@ -3,36 +3,147 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or bacon",
+      "4 large eggs",
+      "100g Parmesan cheese, grated",
+      "Black pepper to taste",
+      "Salt for pasta water"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to boil and cook spaghetti according to package directions.",
+      "While pasta cooks, fry the pancetta in a large skillet until crispy.",
+      "In a bowl, whisk together eggs, grated Parmesan, and black pepper.",
+      "Drain pasta, reserving 1 cup of pasta water.",
+      "Add hot pasta to the skillet with pancetta, remove from heat.",
+      "Quickly stir in the egg mixture, adding pasta water as needed to create a creamy sauce.",
+      "Serve immediately with extra Parmesan and black pepper."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g boneless chicken, cubed",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice",
+      "400ml tomato sauce",
+      "200ml heavy cream",
+      "2 onions, diced",
+      "4 cloves garlic, minced",
+      "2 tbsp butter",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and half the tikka masala spice for at least 1 hour.",
+      "Grill or pan-fry marinated chicken until cooked through.",
+      "In a large pan, melt butter and sauté onions until golden.",
+      "Add garlic and remaining spices, cook for 1 minute.",
+      "Add tomato sauce and simmer for 10 minutes.",
+      "Stir in cream and cooked chicken, simmer for 5 more minutes.",
+      "Garnish with fresh cilantro and serve with rice or naan."
+    ]
   },
   {
     "id": 3,
     "title": "Caesar Salad",
     "summary": "A fresh salad with romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 large head romaine lettuce",
+      "1 cup croutons",
+      "1/2 cup Parmesan cheese, shaved",
+      "1/2 cup Caesar dressing",
+      "2 anchovy fillets (optional)",
+      "1 lemon for garnish"
+    ],
+    "instructions": [
+      "Wash and dry romaine lettuce thoroughly.",
+      "Tear lettuce into bite-sized pieces and place in a large bowl.",
+      "Add Caesar dressing and toss to coat evenly.",
+      "Add croutons and half the Parmesan cheese, toss again.",
+      "Transfer to serving plates.",
+      "Top with remaining Parmesan shavings and anchovy fillets if desired.",
+      "Serve immediately with lemon wedges."
+    ]
   },
   {
     "id": 4,
     "title": "Beef Tacos",
     "summary": "Delicious tacos filled with seasoned ground beef, lettuce, cheese, and salsa.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "8 taco shells",
+      "2 cups lettuce, shredded",
+      "1 cup cheddar cheese, shredded",
+      "1 cup salsa",
+      "1/2 cup sour cream",
+      "1 tomato, diced"
+    ],
+    "instructions": [
+      "Brown ground beef in a large skillet over medium-high heat.",
+      "Drain excess fat and add taco seasoning with water as per packet instructions.",
+      "Simmer for 5 minutes until sauce thickens.",
+      "Warm taco shells according to package directions.",
+      "Fill each shell with seasoned beef.",
+      "Top with lettuce, cheese, salsa, sour cream, and diced tomatoes.",
+      "Serve immediately while hot."
+    ]
   },
   {
     "id": 5,
     "title": "Margherita Pizza",
     "summary": "Classic Italian pizza topped with tomatoes, mozzarella cheese, fresh basil, and olive oil.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 pizza dough ball",
+      "1/2 cup tomato sauce",
+      "200g fresh mozzarella, sliced",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "Salt to taste",
+      "Flour for dusting"
+    ],
+    "instructions": [
+      "Preheat oven to 475°F (245°C) with pizza stone if available.",
+      "Roll out pizza dough on a floured surface to desired thickness.",
+      "Spread tomato sauce evenly, leaving a border for the crust.",
+      "Arrange mozzarella slices over the sauce.",
+      "Drizzle with olive oil and sprinkle with salt.",
+      "Bake for 12-15 minutes until crust is golden and cheese is bubbly.",
+      "Remove from oven, top with fresh basil leaves, and serve hot."
+    ]
   },
   {
     "id": 6,
     "title": "Chocolate Brownies",
     "summary": "Rich and fudgy chocolate brownies perfect for dessert lovers.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "200g dark chocolate",
+      "175g butter",
+      "325g sugar",
+      "3 large eggs",
+      "75g all-purpose flour",
+      "50g cocoa powder",
+      "1 tsp vanilla extract",
+      "Pinch of salt"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C) and line a 9x9 inch baking pan with parchment paper.",
+      "Melt chocolate and butter together in a double boiler or microwave.",
+      "Stir in sugar until well combined and let cool slightly.",
+      "Beat in eggs one at a time, then add vanilla extract.",
+      "Sift in flour, cocoa powder, and salt, fold gently until just combined.",
+      "Pour batter into prepared pan and smooth the top.",
+      "Bake for 25-30 minutes until a toothpick comes out with moist crumbs.",
+      "Cool completely before cutting into squares."
+    ]
   }
 ]
