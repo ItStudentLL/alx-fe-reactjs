@@ -14,6 +14,7 @@ function AddRecipeForm() {
   // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
+    // Update form data with target.value
     setFormData(prev => ({
       ...prev,
       [name]: value
